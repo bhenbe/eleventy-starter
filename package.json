@@ -40,6 +40,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "gulp-run-command": "0.0.9",
-    "gulp-shell": "^0.7.1"
+    "gulp-shell": "^0.7.1",
+    "netlify-cms": "^2.10.16"
   }
 }
