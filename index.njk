@@ -2,12 +2,149 @@
 layout: layouts/home.njk
 tags:
   - nav
-navtitle: Home
+navtitle: Accueil
 ---
 
-<h1>Latest 3 Posts</h1>
+<main>
 
-{% set postslist = collections.posts | head(-3) %}
-{% include "postslist.njk" %}
+  <h1><span>Je suis Designer web</span> <span>&amp; développeur front-end</span></h1>
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+  <p>Je suis consultant spécialisé en HTML, CSS &amp; Javascript. On fait appel à mes services pour la mise en place de design system et la conception de prototypes, sites ou applications statiques.</p>
+  
+  <p>Je donne aussi des conférences sur l'éco-conception, l'accessibilité et la conception de design system. Enfin, je porte beaucoup d'importance à l'éthique et à la collaboration entre les équipes.</p>
+
+  <ul>
+    <li><a href="http://twitter.com/bhenbe">Twitter</a></li>
+    <li><a href="https://www.linkedin.com/in/benoit-henry-00b08b19/">LinkedIn</a></li>
+    <li><a href="https://www.behance.net/bhenbe">Behance</a></li>
+    <li><a href="https://dribbble.com/bhen">Dribbble</a></li>
+  </ul>
+
+</main>
+
+<section>
+
+  <h2>Je suis designer web</h2>
+
+  <img src="{{ '/img/design-system.svg'  | url }}" alt=""/> 
+
+  <p>Une identité graphique cohérente et pertinente est la base de toute bonne communication. Je vous apporte mon aide en élaborant des chartes graphiques (design systems) à partir de vos contenus, testées auprès de vos audiences (UX) et accessibles pour les différents types d'incapacité (A11Y).</p>
+
+  <p>Cette rigueur ne fait pas de moi une personne moins créative. Elle m'aide à réaliser des interfaces simples, intuitives et pas uniquement spectaculaires. Je ne cherche pas que l'effet "waouw". Je cherche aussi à fidéliser vos audiences.</p>
+
+</section>
+
+<section>
+
+  <h2>Je conçois des interfaces simples et intuitives</h2>
+
+  <img src="{{ '/img/ui-design.svg' | url }}" alt=""/> 
+
+  <p>Une application aisée à prendre en main et répondant aux attentes de vos audiences améliore grandement vos chances de succès. J'aide vos équipes à atteindre ces objectifs, à répondre aux problématiques rencontrées, à trouver des solutions simples et efficaces et à les éprouver auprès de vos utilisateurs.</p>
+
+  <aside>
+
+    <p>Vous désirez en savoir plus sur mes compétences ? Consultez <a href="https://www.linkedin.com/in/benoit-henry-00b08b19/">mon profil LinkedIn</a></p>
+  
+  </aside>
+
+</section>
+
+<section>
+
+  <h2>Je développe des applications responsive</h2>
+
+  <img src="{{ '/img/responsive.svg' | url }}"/>
+
+  <p>Un site responsive n'est plus une alternative aujourd'hui. Je vous accompagne et vous aide à appréhender les nouvelles technologies du web, à opter pour la solution technique qui répond à vos attentes: celle qui facilite votre quotidien, qui vous fait gagner du temps et qui séduit vos utilisateurs.</p>
+        
+</section>
+
+<section>
+
+  <h2>J'aime collaborer et partager mes connaissances</h2>
+
+  <img src="{{ '/img/team.svg' | url }}" alt=""/> 
+
+  <p>Je collabore au quotidien avec diverses équipes (marketing, communication, design, développement ou programmation). Mon expérience professionnelle me prouve que c'est en tissant des synergies entre ces différentes équipes que les bons projets voient le jour.</p>
+      
+  <aside>
+
+    <p><strong>J'ai eu la chance de travailler pour</strong></p>
+
+    <ul class="client-list">
+      <li>AG Insurance</li>
+      <li>Agence du Numérique (ex-AWT)</li>
+      <li>Asmodée Benelux</li>
+      <li>Aux Merveilleux</li>
+      <li>Bio Wallonie</li>
+      <li>BNP Paribas Fortis</li>
+      <li>Booking</li>
+      <li>Claude Maxime Mondial</li>
+      <li>Chocolaterie C Comme</li>
+      <li>Éditions Glénat</li>
+      <li>Esperanzah</li>
+      <li>Fédération Wallonie Bruxelles</li>
+      <li>Fondation Roi Baudouin</li>
+      <li>Formul'A</li>
+      <li>Global Wellness Day</li>
+      <li>Groupe PSA</li>
+      <li>Groupe Rossel</li>
+      <li>Groupe VOG</li>
+      <li>L'oréal professionnel</li>
+      <li>Les rencontres inattendues</li>
+      <li>Martine Reyners Soprano</li>
+      <li>Proximus</li>
+      <li>Ramdam Festival</li>
+      <li>Tchip Coiffure</li>
+      <li>Tip Touch International</li>
+      <li>Ville de Péruwelz</li>
+      <li>Ville de Tournai</li>
+      <li>VOO</li>
+    </ul>
+
+  </aside>
+
+</section>
+
+<section>
+
+  <h2>Je suis passionné</h2>
+
+  <img src="{{ '/img/tools.svg' | url }}" alt=""/> 
+
+  <p>J'aime apprendre de nouvelles techniques, découvrir de nouvelles technologies et partager mes connaissances avec mes collègues. L'éthique a une grande importance pour moi et j'ai eu le privilège d'être contributeur à <a href="https://github.com/mmmonteiro/designethics/">la charte d'éthique du designer</a>. J'ai participé à d'autres projets comme <a href="https://www.facebook.com/lessoireessanstitre/">les Soirées Sans-Titre</a>, le Café Numérique de Tournai ou encore le meetup FrontSeeds.</p>
+
+</section>
+
+<section>
+
+  <h2>J'aime apprendre de nouvelles choses</h2>
+
+  <img src="{{ '/img/travel.svg' | url }}" alt=""/> 
+
+  <p>Le web évolue et j'évolue avec lui. Je participe à un grand nombre de conférences (SmashingConf, Front-end United, Bump Festival, ...) ainsi qu'à des meetups. Je suis divers podcast et dévore articles et livres traitant des domaines du design et du développement web.</p>
+        
+  <aside>
+
+    <p>Je partage parfois des choses intéressantes sur <a href="http://twitter.com/bhenbe">mon compte Twitter</a></p>
+
+  </aside>
+
+</section>
+
+<section>
+
+  <h2>Je suis aussi illustrateur, accessoirement et sans prétention</h2>
+
+  <img src="{{ '/img/illustration.svg' | url }}" alt=""/> 
+
+  <p>Je n'ai jamais pu laisser un bout de papier vierge. Dès que j'en ai la possibilité, je dessine pour moi mais aussi pour certains de mes clients.</p>
+        
+  <aside>
+
+    <p>Vous retrouverez une partie de mes illustrations sur <a href="https://www.behance.net/bhenbe">mon profil Behance</a></p>
+
+  </aside>
+
+</section>

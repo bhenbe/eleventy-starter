@@ -1,0 +1,27 @@
+.navbar-main{
+    ul{
+        display: flex;
+        flex-flow: row wrap;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        & > li > a{
+            color: $c-font-base;
+            display: inline-block;
+            font-weight: 700;
+            padding: 0 1rem;
+            text-decoration: none;
+
+            &:hover,
+            &:active,
+            &:focus{
+                text-decoration: underline;
+            }
+        }
+
+        & > li:last-child > a{
+            padding-right: 0;
+        }
+    }
+}

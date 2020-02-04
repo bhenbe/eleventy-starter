@@ -1,16 +1,16 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "bHen - Designer web et développeur front-end d'applications web, mobile, Wordpress à Tournai, Belgique",
+  "url": "https://bhen.be/",
+  "description": "Site web de Benoit Henry, designer et développeur web belge spécialisé dans la conception de design system et sites statiques.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Site web de Benoit Henry, designer et développeur web belge spécialisé dans la conception de design system et sites statiques.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "url": "https://bhen.be/feed/feed.xml",
+    "id": "https://bhen.be/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Benoit Henry",
+    "email": "contact@bhen.be"
   }
 }

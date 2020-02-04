@@ -2,11 +2,17 @@
 layout: layouts/home.njk
 tags:
   - nav
-navtitle: Archive
-permalink: /posts/
+navtitle: Blog
+permalink: /blog/
 ---
 
-<h1>Archive</h1>
+<h1>Mes articles, mon blog</h1>
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
+
+<ul>  
+  {% for todo in todos %}  
+  <li>{{ todo.title }}</li>  
+  {% endfor %}  
+</ul>
